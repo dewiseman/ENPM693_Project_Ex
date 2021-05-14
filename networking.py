@@ -1,6 +1,6 @@
 import socket
 import argparse
-from encryption import encrypt_msg, decrypt_msg
+from encryption import encrypt_msg
 
 def run_server(port):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
